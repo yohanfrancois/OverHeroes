@@ -1,0 +1,212 @@
+@font-face {
+    font-family:"BigNoodleTitling";
+    src:url("fonts/big_noodle_titling.eot?") format("eot"),
+        url("fonts/big_noodle_titling.woff") format("woff"),
+        url("fonts/big_noodle_titling.ttf") format("truetype"),
+        url("fonts/big_noodle_titling.svg#BigNoodleTitling") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+body {
+    font-family:"BigNoodleTitling";
+    background-image: url(http://us.battle.net/forums/static/images/backgrounds/background-overwatch-top.jpg);
+    background-repeat: repeat;
+}
+.card {
+    display: inline-block;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+.test {
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    margin-bottom: 10px;
+}
+h1 {
+    color: whitesmoke;
+}
+.mb-3 {
+    text-align: center;
+    margin: 0 auto;
+    width : 100px;
+}
+.padding {
+    padding: 30px;
+}
+.titre {
+    font-size: 35px;
+
+}
+.navbar-brand:hover{
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+.titre:hover {
+    border-left: 3px solid whitesmoke;
+}
+.acceuil-link:hover {
+    border-right: 1.6px solid whitesmoke;
+}
+.footer {
+    color: whitesmoke;
+    text-align: center;
+}
+.largeur {
+    width: 100%;
+}
+.textcolor {
+    color: whitesmoke;
+}
+.font {
+    font-family: 'Nova Flat', cursive;
+}
+.hero-ability {
+    margin-top: 22px;
+    overflow: hidden;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+    background-repeat: no-repeat;
+    vertical-align: inherit;
+    white-space: inherit;
+    text-overflow: inherit;
+    text-shadow: inherit;
+}
+div {
+    display: block;
+}
+.hero-ability-icon {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    max-height: 65%;
+    max-width: 150%;
+}
+.hero-ability-icon-bg {
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(64,82,117,.4);
+    border: 2px solid rgba(240,237,242,.4);
+}
+.hero-ability-icon-container {
+    text-align: center;
+}
+.presentation {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    
+}
+.changeheroes {
+    float: right;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.cote {
+    margin: 20px;
+    float: left;
+}
+.floatright {
+    float: right;
+    margin: 10px;
+}
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card {
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-clip: padding-box;
+}
+.card span.card-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card .card-image {
+  position: relative;
+  overflow: hidden;
+}
+.card .card-image img {
+  border-radius: 2px 2px 0 0;
+  background-clip: padding-box;
+  position: relative;
+  z-index: -1;
+}
+.card .card-image span.card-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 16px;
+}
+.card .card-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.card .card-content p {
+  margin: 0;
+  color: inherit;
+}
+.card .card-content span.card-title {
+  line-height: 48px;
+}
+.card .card-action {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 16px;
+}
+.card .card-action a {
+  color: #ffab40;
+  margin-right: 16px;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
+.card .card-action a:hover {
+  color: #ffd8a6;
+  text-decoration: none;
+}
+.black {
+    color: black;
+}
+.important {
+    font-weight: bold;
+    color: goldenrod;
+}
+.blank {
+    color: whitesmoke;
+}
+.middle {
+    vertical-align: middle;
+}
+.width {
+    width: 88%;
+}
+.size {
+    font-size: 52px;
+}
+.size2 {
+    font-size: 20px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
